@@ -31,7 +31,9 @@ Besök sedan http://localhost:8000. Webbplatsen använder vanlig HTML och CSS, u
 
 ## Struktur
 
-- `index.html` – presentation, projekt, kompetens och kontaktsektion.
+- `index.html` – presentation, filtrerbar projektöversikt, kompetens och profil.
+- `projekt/` – åtta fördjupningssidor med uppgift, bidrag, arbetsflöde och lärdomar.
+- `script.js` – projektfilter; allt innehåll fungerar även utan JavaScript.
 - `styles.css` – responsiv design, tangentbordsfokus och utskriftsvy.
 - `favicon.svg` – initialer som webbikon.
 - `docs/content-sources.md` – källor och avgränsningar för presentationen.
@@ -39,10 +41,30 @@ Besök sedan http://localhost:8000. Webbplatsen använder vanlig HTML och CSS, u
 
 ## Redigera
 
-Ändra presentation och projekt direkt i `index.html`. Håll denna README uppdaterad när urvalet ändras. Ange alltid vad som är individuellt arbete respektive teamarbete och länka till underlag. Historiska skanningsresultat ska beskrivas som historiska.
+Ändra presentation och projektöversikt i `index.html`, och längre projektbeskrivningar i `projekt/`. Håll denna README uppdaterad när urvalet ändras. Ange alltid vad som är individuellt arbete respektive teamarbete och länka till underlag. Historiska skanningsresultat ska beskrivas som historiska.
 
 Publiceringsanvisningar och återstående personuppgifter finns i [personalisering](docs/personalization.md).
 
 ## Hela GitHub-underlaget
 
 Se [repoinventeringen](docs/github-inventory.md) för samtliga tillgängliga projekt, urval och avgränsningar. Min publika slutreflektion beskriver intresse för SOC Analyst, Security Engineer och detection engineering; aktuell jobbsökarinriktning behöver fortfarande bekräftas.
+
+## Kontrollera webbplatsen
+
+Webbläsartestet kontrollerar alla nio sidor vid 320, 390, 768 och 1440 pixlars bredd, projektfilter, ankarlänkar till dolda kort, tangentbordets hopplänk, utskriftsläge och visning utan JavaScript.
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements-dev.txt
+python -m playwright install chromium
+python tests/browser_check.py
+```
+
+Chromium behöver fungerande systembibliotek. Dessa testberoenden behövs bara för utveckling, inte för att använda eller publicera webbplatsen.
+
+## Design och tillgänglighet
+
+Responsiv layout med lokala typsnitt, tydlig tangentbordsfokus, semantiska sidregioner, reducerad rörelse och utskriftsvy. Filtren visar antal träffar och valt läge för hjälpmedel. Länkar från kompetensdelen visar automatiskt ett projekt även om det dolts av ett filter. Inga externa anrop görs när sidan laddas.
+
+Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Aktuell målroll, CV och offentlig kontaktadress återstår att komplettera med Jonny.

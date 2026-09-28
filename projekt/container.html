@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Containerhärdning | Jonny Nguyen
+  </title>
+  <meta content="En praktisk jämförelse av en avsiktligt sårbar labbcontainer och en härdad version." name="description"/>
+  <meta content="#18332e" name="theme-color"/>
+  <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="../styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Hoppa till innehållet
+  </a>
+  <header>
+   <a aria-label="Jonny Nguyen, startsida" class="brand" href="../index.html">
+    JN
+    <span>
+     Jonny Nguyen
+    </span>
+   </a>
+   <nav aria-label="Huvudnavigation">
+    <a href="../index.html#projekt">
+     Projekt
+    </a>
+    <a href="../index.html#kompetens">
+     Kompetens
+    </a>
+    <a href="../index.html#om">
+     Om mig
+    </a>
+    <a href="../index.html#kontakt">
+     Kontakt ↗
+    </a>
+   </nav>
+  </header>
+  <main class="case-page" id="main">
+   <nav aria-label="Brödsmulor" class="breadcrumb">
+    <a href="../index.html#projekt">
+     Alla projekt
+    </a>
+    <span aria-hidden="true">
+     /
+    </span>
+    <span>
+     Containerhärdning
+    </span>
+   </nav>
+   <section class="case-hero">
+    <p class="eyebrow">
+     PROJEKT 06 / INDIVIDUELL LABB · 01
+    </p>
+    <h1>
+     En mindre och säkrare container.
+    </h1>
+    <p class="intro">
+     En praktisk jämförelse av en avsiktligt sårbar labbcontainer och en härdad version.
+    </p>
+    <div class="tags">
+     <span>
+      Docker
+     </span>
+     <span>
+      Trivy
+     </span>
+     <span>
+      Gatekeeper
+     </span>
+    </div>
+   </section>
+   <div class="case-layout">
+    <div>
+     <section class="case-section">
+      <p class="eyebrow">
+       01 / UPPGIFTEN
+      </p>
+      <h2>
+       Hur påverkar basimage, användare och beroenden en containers säkerhet?
+      </h2>
+      <p>
+       En praktisk jämförelse av en avsiktligt sårbar labbcontainer och en härdad version.
+      </p>
+     </section>
+     <section class="case-section">
+      <p class="eyebrow">
+       02 / MITT BIDRAG
+      </p>
+      <h2>
+       Det här arbetade jag med.
+      </h2>
+      <p>
+       Bytte basimage, använde non-root-användare och förbättrade hanteringen av beroenden. Skannade med Trivy, genererade SBOM och testade policyer i Gatekeeper-labbet.
+      </p>
+      <ol aria-label="Projektets övergripande arbetsflöde" class="process-diagram">
+       <li>
+        <span>
+         01
+        </span>
+        Utgångsläge
+       </li>
+       <li>
+        <span>
+         02
+        </span>
+        Härda image
+       </li>
+       <li>
+        <span>
+         03
+        </span>
+        Skanna igen
+       </li>
+       <li>
+        <span>
+         04
+        </span>
+        Dokumentera SBOM
+       </li>
+      </ol>
+      <p class="caption">
+       Förenklad översikt av projektets arbetsflöde.
+      </p>
+     </section>
+     <section class="case-section">
+      <p class="eyebrow">
+       03 / RESULTAT &amp; LÄRDOM
+      </p>
+      <h2>
+       Vad arbetet gav.
+      </h2>
+      <div class="results">
+       <div>
+        <strong>
+         1,46 GB → 206 MB
+        </strong>
+        <span>
+         Containerstorlek i labben
+        </span>
+       </div>
+       <div>
+        <strong>
+         1 480 → 4
+        </strong>
+        <span>
+         HIGH/CRITICAL-fynd vid skanning
+        </span>
+       </div>
+      </div>
+      <p>
+       HIGH/CRITICAL-fynd minskade från 1 480 till 4 vid labbens skanning. Fyra allvarliga fynd återstod; resultatet är en historisk mätning, inte en garanti om dagens säkerhetsläge.
+      </p>
+     </section>
+    </div>
+    <aside class="case-aside">
+     <p class="eyebrow">
+      OM PROJEKTET
+     </p>
+     <h2>
+      Containerhärdning
+     </h2>
+     <p>
+      Historiska skanningsresultat från labben. Fyra HIGH/CRITICAL-fynd återstod efter härdningen. Resultatet säger inte hur samma image bedöms idag.
+     </p>
+     <hr/>
+     <p class="eyebrow">
+      FÖRDJUPNING
+     </p>
+     <a class="project-link" href="https://github.com/Itzmejonny92/lab2-container-security">
+      Se kod och före/efter-resultat ↗
+     </a>
+     <p class="caption">
+      Originaldokumentation på GitHub.
+     </p>
+     <a class="button" href="../index.html#projekt">
+      Till projektöversikten ←
+     </a>
+    </aside>
+   </div>
+   <nav aria-label="Fler projekt" class="case-pagination">
+    <a href="platform.html">
+     ← Föregående projekt
+    </a>
+    <a href="terraform.html">
+     Nästa projekt →
+    </a>
+   </nav>
+  </main>
+  <footer>
+   <span>
+    © 2026 Jonny Nguyen
+   </span>
+   <span>
+    Byggd med struktur. Dokumenterad med omsorg.
+   </span>
+   <a href="#main">
+    Till toppen ↑
+   </a>
+  </footer>
+ </body>
+</html>
