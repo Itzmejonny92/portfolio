@@ -6,12 +6,15 @@ Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruk
 
 ## Om mig
 
-Jag är Jonny Nguyen och studerar på Chas Academy, ITSX25. Jag är intresserad av SOC, Security Engineering och detection engineering. I projekten arbetar jag bland annat med integration, metodisk felsökning och dokumentation som gör tekniska beslut lättare att följa.
+Jag är Jonny Nguyen, bosatt i Helsingborg, och studerar till IT- och cybersäkerhetstekniker (YH) på Chas Academy, ITSX25, september 2025–juli 2027. Min bakgrund är produktionsledare på KLS Ugglarps AB (2015–2026), med personalansvar, planering, säkerhetsrutiner, riskbedömning och kvalitetssäkring. Jag är intresserad av SOC, Security Engineering och detection engineering. I projekten arbetar jag bland annat med integration, metodisk felsökning och dokumentation som gör tekniska beslut lättare att följa.
 
 ## Kontakt
 
 - **GitHub:** [Itzmejonny92](https://github.com/Itzmejonny92)
-- **E-post och LinkedIn:** läggs till när offentlig kontaktinformation har bekräftats.
+- **E-post:** [j.nguyen92@hotmail.com](mailto:j.nguyen92@hotmail.com)
+- **LinkedIn:** [Jonny Nguyen](https://www.linkedin.com/in/jonny-nguyen-770463383/)
+- **Ort:** Helsingborg, Sverige
+- **CV:** [Svenska (PDF)](assets/jonny-nguyen-cv-sv.pdf) · [English (PDF)](assets/jonny-nguyen-cv-en.pdf)
 
 ## Projekt att börja med
 
@@ -48,6 +51,7 @@ Besök sedan http://localhost:8000. Webbplatsen använder HTML, CSS och ett lite
 - `script.js` – projektfilter; allt innehåll fungerar även utan JavaScript.
 - `styles.css` – responsiv design, tangentbordsfokus och utskriftsvy.
 - `favicon.svg` – initialer som webbikon.
+- `assets/` – porträtt och CV på svenska och engelska.
 - `docs/content-sources.md` – källor och avgränsningar för presentationen.
 - `docs/personalization.md` – kontaktuppgifter och CV att komplettera.
 - `docs/maintenance.md` – redigering, kontroller och publicering.
@@ -86,7 +90,7 @@ Chromium behöver fungerande systembibliotek. Dessa testberoenden behövs bara f
 
 Responsiv layout med lokala typsnitt, tydlig tangentbordsfokus, semantiska sidregioner, reducerad rörelse och utskriftsvy. Filtren visar antal träffar och valt läge för hjälpmedel. Länkar från kompetensdelen visar automatiskt ett projekt även om det dolts av ett filter. Inga externa anrop görs när sidan laddas.
 
-Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Aktuell målroll, CV och offentlig kontaktadress återstår att komplettera med Jonny.
+Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Bakgrund, utbildningsperiod och kontaktadress har kompletterats från Jonnys egna CV-filer. Aktuell tillgänglighet för LIA eller anställning återstår att bekräfta.
 
 ## Material och återanvändning
 

@@ -19,3 +19,11 @@ Presentationens formuleringar om arbetssätt är en redaktionell sammanfattning 
 ## Breddad genomgång
 
 Se [repoinventering](github-inventory.md). AIS-slutreflektionens fullständiga HTML-rapport styrker SOC-intresse, Wazuh- och OT-labbar samt Jonnys specifika integrationsroll i ML-projektet. Teamets privata bidragsdokumentation användes för att kontrollera rollfördelningen. Modellträning tillskrivs inte Jonny. Forken VaultCorp är identisk med sin förälder vid jämförelsen och presenteras inte som en egen säkerhetsleverans.
+
+## Personlig bakgrund och kontakt
+
+Jonny tillhandahöll svenska och engelska CV-filer samt porträtt i mappen `Info JN` den 28 september 2026. Dessa styrker utbildning, perioder, arbetslivserfarenhet, ort och e-post. LinkedIn-länken lämnades direkt i samtalet; profilinnehållet kunde inte hämtas.
+
+Webbplatsens personliga bakgrund har uppdaterats från dessa uppgifter. De tidigare avgränsningarna om att yrkeserfarenhet, utbildningsdatum och kontaktuppgifter saknades gäller därför endast det första utkastet. Erfarenheten inom produktionsledning beskrivs som sådan, utan att framställas som IT-anställning.
+
+CV-filerna i `assets/` är separata, omformaterade publiceringsversioner baserade på underlaget. Bostadsadress och telefonnummer har utelämnats; originalfilerna är oförändrade och ligger utanför repot.

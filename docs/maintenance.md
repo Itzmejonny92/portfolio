@@ -28,9 +28,11 @@ Navigation och sidfot finns i varje HTML-fil. Ändringar som gäller hela webbpl
 
 ## Kontakt, CV och privata arbetsfiler
 
-Använd bara den e-postadress, LinkedIn-länk och ort som Jonny vill visa offentligt. Lägg e-post som en `mailto:`-länk och LinkedIn som en vanlig HTTPS-länk. Visa ingen knapp för CV förrän filen finns.
+Kontaktsektionen innehåller e-post, LinkedIn och GitHub samt ort. Uppdatera både `index.html` och README när uppgifterna ändras.
 
-Ett publiceringsklart CV kan placeras i `assets/jonny-nguyen-cv.pdf`. Privata utkast kan förvaras i den ignorerade mappen `private/`. En gitignore-regel tar inte bort filer som redan är versionshanterade. Starta lokalservern utan privata dokument i den serverade mappen om andra ska få åtkomst.
+CV finns som `assets/jonny-nguyen-cv-sv.pdf` och `assets/jonny-nguyen-cv-en.pdf`. Motsvarande HTML-filer i samma mapp är redigerbara källor. Öppna dem i en webbläsare och skriv ut till PDF med A4, utan webbläsarens sidhuvud/sidfot, efter innehållsändringar. Kontrollera att slutresultatet fortfarande ryms och att länkar fungerar. Porträttet ligger i `assets/jonny-nguyen.png`.
+
+CV-versionerna för webben utelämnar bostadsadress och telefonnummer. Originalunderlaget ligger utanför repot. Privata utkast kan förvaras i den ignorerade mappen `private/`. En gitignore-regel tar inte bort redan versionshanterade filer. Ladda bara upp avsedda webbplatsfiler vid publicering.
 
 ## Kontroll före push
 

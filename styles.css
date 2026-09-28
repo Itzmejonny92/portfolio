@@ -195,3 +195,17 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20
   .card { padding: 15px; }
   h1 { font-size: 32px; }
 }
+
+/* Personal presentation and contact */
+.portrait { display: block; width: min(298px, 100%); height: auto; border-radius: 7px; margin-top: 32px; }
+.portrait-caption { font-size: 11px !important; margin-top: 10px; }
+.background { margin: 30px 0; }
+.background article { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 22px; }
+.background .eyebrow { font-size: 9px; margin-bottom: 12px; }
+.background h3 { font-size: 21px; margin-bottom: 12px; }
+.contact-links, .cv-links { display: flex; flex-wrap: wrap; gap: 22px; justify-content: center; align-items: center; }
+.contact-links { margin: 28px 0 20px; }
+.contact-profile { font-size: 14px; }
+.contact .contact-location { font-size: 12px !important; }
+.cv-links { border-top: 1px solid #657a69; padding-top: 22px; margin: 24px auto 0; max-width: 550px; font-size: 12px; }
+@media (max-width: 540px) { .contact-links .button { font-size: 12px; gap: 12px; padding-inline: 12px; } }

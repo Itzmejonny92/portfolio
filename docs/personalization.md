@@ -1,24 +1,21 @@
-# Komplettera presentationen
+# Personuppgifter och fortsatt komplettering
 
-Webbplatsen är ett första utkast baserat på dokumenterade kursprojekt.
+## Infört från Jonnys underlag
 
-## Uppgifter som förbättrar portfolion
+- Helsingborg, Sverige.
+- E-post: j.nguyen92@hotmail.com.
+- LinkedIn: https://www.linkedin.com/in/jonny-nguyen-770463383/ (länk lämnad av Jonny; sidans innehåll kunde inte hämtas).
+- Produktionsledare, KLS Ugglarps AB, 2015–2026.
+- IT- och cybersäkerhetstekniker (YH), Chas Academy, september 2025–juli 2027. Utbildningen är pågående.
+- Teknikprogrammet – Data/IT, 2007–2011.
+- Porträtt från Jonnys CV-underlag.
+- Offentliga CV-versioner på svenska och engelska i `assets/`, framställda från underlaget med bostadsadress och telefonnummer utelämnade.
 
-- Vilken roll söker du: exempelvis IT-säkerhet, SOC, molnsäkerhet eller DevSecOps?
-- Söker du LIA/praktik eller anställning, och från vilket datum?
-- CV: utbildningens fullständiga namn, datum och tidigare relevant erfarenhet.
-- Offentlig kontaktadress och eventuell LinkedIn-länk.
-- Ort eller önskemål om distansarbete, om du vill visa det.
-- En personlig presentation med egna ord och eventuellt porträtt.
+## Återstår att bekräfta
 
-Skicka gärna ett CV utan personnummer, bostadsadress eller andra uppgifter som inte ska publiceras. Lägg bara till verifierade certifieringar och arbetslivserfarenheter.
+- Aktuell målroll och om Jonny söker LIA/praktik eller anställning.
+- Tillgänglighet och eventuella önskemål om ort eller distansarbete.
 
-## Kontakt och CV
+Ingen tillgänglighetsstatus, tidigare IT-anställning eller certifiering har antagits. Ingen LinkedIn-text har hämtats eller använts som sakunderlag.
 
-Kontaktsektionen länkar tills vidare till GitHub. Ersätt eller komplettera den med en e-postlänk när rätt offentlig adress har valts. Någon CV-knapp finns inte förrän en faktisk CV-fil har lagts till; då kan exempelvis `assets/jonny-nguyen-cv.pdf` länkas från presentationen och kontaktsektionen.
-
-## Publicering och redigering
-
-Se [underhållsguiden](maintenance.md) för filstruktur, redigering, kontroller och publicering.
-
-Portfolion har inga formulär, cookies eller externa resurser. Kontaktlänkar öppnar användarens e-postprogram eller den externa profilsidan när de väljs.
+Se [underhållsguiden](maintenance.md) för redigering, kontroller och publicering.
