@@ -2,9 +2,18 @@
 
 Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruktur. Jag studerar på Chas Academy, ITSX25, och samlar här praktiska kursprojekt, dokumenterade resultat och lärdomar.
 
-[GitHub-profil](https://github.com/Itzmejonny92)
+[GitHub-profil](https://github.com/Itzmejonny92) · [Portfolio-repo](https://github.com/Itzmejonny92/portfolio)
 
-## Börja här
+## Om mig
+
+Jag är Jonny Nguyen och studerar på Chas Academy, ITSX25. Jag är intresserad av SOC, Security Engineering och detection engineering. I projekten arbetar jag bland annat med integration, metodisk felsökning och dokumentation som gör tekniska beslut lättare att följa.
+
+## Kontakt
+
+- **GitHub:** [Itzmejonny92](https://github.com/Itzmejonny92)
+- **E-post och LinkedIn:** läggs till när offentlig kontaktinformation har bekräftats.
+
+## Projekt att börja med
 
 | Projekt | Vad det visar | Underlag |
 | --- | --- | --- |
@@ -19,7 +28,10 @@ Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruk
 | Nätverks-, OT- och AI-säkerhet | Individuell reflektion kring kursens säkerhetsområden. | [Rapport](https://github.com/Itzmejonny92/AIS-slutreflektion) |
 | Molnsäkerhet och DevSecOps | SRE, systemresiliens och incidenthantering. | [Slutrapport](https://github.com/Itzmejonny92/slutrapport-jonny-nguyen) |
 
-## Webbplatsen
+## Öppna portfolion
+
+Webbplatsen finns lokalt i detta repo. En offentlig webbplatsadress har ännu inte konfigurerats.
+
 
 Öppna `index.html` direkt i en webbläsare, eller kör från repots rot:
 
@@ -27,7 +39,7 @@ Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruk
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Besök sedan http://localhost:8000. Webbplatsen använder vanlig HTML och CSS, utan installation, byggsteg, externa typsnitt eller analysverktyg.
+Besök sedan http://localhost:8000. Webbplatsen använder HTML, CSS och ett litet JavaScript för filtrering, utan installation, byggsteg, externa typsnitt eller analysverktyg.
 
 ## Struktur
 
@@ -37,13 +49,20 @@ Besök sedan http://localhost:8000. Webbplatsen använder vanlig HTML och CSS, u
 - `styles.css` – responsiv design, tangentbordsfokus och utskriftsvy.
 - `favicon.svg` – initialer som webbikon.
 - `docs/content-sources.md` – källor och avgränsningar för presentationen.
-- `docs/personalization.md` – uppgifter att komplettera och publiceringsanvisningar.
+- `docs/personalization.md` – kontaktuppgifter och CV att komplettera.
+- `docs/maintenance.md` – redigering, kontroller och publicering.
+- `docs/github-inventory.md` – inventering av GitHub-projekten.
+- `docs/verification.md` – genomförda kontroller och deras avgränsningar.
+- `tests/browser_check.py` – webbläsartest för funktioner och responsiv layout.
+- `requirements-dev.txt` – testberoenden; webbplatsen behöver ingen installation.
+- `.editorconfig` / `.gitattributes` – gemensamma textformat och radslut.
+- `.gitignore` – lokala miljöer, testresultat och privata arbetsfiler.
 
 ## Redigera
 
 Ändra presentation och projektöversikt i `index.html`, och längre projektbeskrivningar i `projekt/`. Håll denna README uppdaterad när urvalet ändras. Ange alltid vad som är individuellt arbete respektive teamarbete och länka till underlag. Historiska skanningsresultat ska beskrivas som historiska.
 
-Publiceringsanvisningar och återstående personuppgifter finns i [personalisering](docs/personalization.md).
+Se [underhållsguiden](docs/maintenance.md) för arbetsflöde och publicering, och [personalisering](docs/personalization.md) för återstående personuppgifter.
 
 ## Hela GitHub-underlaget
 
@@ -68,3 +87,7 @@ Chromium behöver fungerande systembibliotek. Dessa testberoenden behövs bara f
 Responsiv layout med lokala typsnitt, tydlig tangentbordsfokus, semantiska sidregioner, reducerad rörelse och utskriftsvy. Filtren visar antal träffar och valt läge för hjälpmedel. Länkar från kompetensdelen visar automatiskt ett projekt även om det dolts av ett filter. Inga externa anrop görs när sidan laddas.
 
 Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Aktuell målroll, CV och offentlig kontaktadress återstår att komplettera med Jonny.
+
+## Material och återanvändning
+
+Projektbeskrivningarna länkar till originalunderlagen. Teamprojekt och individuella insatser skiljs åt. Ingen generell öppen källkodslicens har valts för detta repo; länkade projekt kan ha egna licenser. Porträtt, CV och andra personliga dokument ska endast läggas till i den version som är avsedd att visas offentligt.

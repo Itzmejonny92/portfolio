@@ -17,8 +17,8 @@ Skicka gärna ett CV utan personnummer, bostadsadress eller andra uppgifter som 
 
 Kontaktsektionen länkar tills vidare till GitHub. Ersätt eller komplettera den med en e-postlänk när rätt offentlig adress har valts. Någon CV-knapp finns inte förrän en faktisk CV-fil har lagts till; då kan exempelvis `assets/jonny-nguyen-cv.pdf` länkas från presentationen och kontaktsektionen.
 
-## Publicera med GitHub Pages
+## Publicering och redigering
 
-Repot börjar privat för granskning. För publicering: granska innehållet, välj önskad synlighet och säkerställ att kontots plan stödjer Pages för den synligheten. Gå sedan till **Settings → Pages → Deploy from a branch**, välj `main` och `/ (root)`. HTML- och CSS-filerna fungerar direkt utan byggsteg. Använd den webbplatsadress GitHub visar när publiceringen är klar.
+Se [underhållsguiden](maintenance.md) för filstruktur, redigering, kontroller och publicering.
 
-Portfolion har inga formulär, cookies eller externa resurser. Om sådana funktioner läggs till behöver dokumentation och eventuella integritetsuppgifter uppdateras.
+Portfolion har inga formulär, cookies eller externa resurser. Kontaktlänkar öppnar användarens e-postprogram eller den externa profilsidan när de väljs.

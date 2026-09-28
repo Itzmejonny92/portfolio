@@ -1,8 +1,37 @@
-.DS_Store
-Thumbs.db
+# Lokala miljövariabler (exempelfiler får versionshanteras)
 .env
 .env.*
 !.env.example
-node_modules/
+
+# Python och lokala testmiljöer
 .venv/
+venv/
 __pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Testresultat och tillfälliga filer
+test-results/
+playwright-report/
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Operativsystem och personliga editorinställningar
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Eventuella lokala frontendverktyg
+node_modules/
+
+# Privata CV-utkast och arbetsmaterial (lägg publika filer i assets/)
+private/

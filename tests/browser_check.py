@@ -16,7 +16,7 @@ with sync_playwright() as pw:
    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'),(width,file.name)
    for link in page.locator('a[href]').all():
     href=link.get_attribute('href')
-    if href.startswith('https:'):continue
+    if href.startswith(('https:', 'http:', 'mailto:', 'tel:')):continue
     path,_,anchor=href.partition('#');target=(file.parent/path).resolve() if path else file
     assert target.exists(),(file,href)
  page.goto(base+'/index.html');page.keyboard.press('Tab');assert page.locator('.skip').evaluate('(e)=>e===document.activeElement');page.keyboard.press('Enter');assert page.evaluate('location.hash')=='#main'
