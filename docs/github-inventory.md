@@ -40,4 +40,4 @@ Den publika AIS-reflektionen beskriver ett intresse för SOC Analyst, Security E
 
 ## Komplettering från Jonny
 
-Aktuell målroll, LIA/anställning, utbildningens officiella namn och slutdatum, tidigare erfarenhet samt kontaktuppgifter behöver fortfarande bekräftas. Kursrapporterna ersätter inte ett CV.
+Utbildningsnamn, period, yrkeserfarenhet och kontaktuppgifter har därefter bekräftats genom Jonnys CV-underlag. Aktuell målroll och tillgänglighet för LIA/anställning återstår att precisera. Webbplatsen länkar till publika beskrivningar av arbeten vars kod är privat.

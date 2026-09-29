@@ -14,7 +14,7 @@ Granskat 2026-09-28 via GitHub API samt arbetskopian av teamets repo. Bara publi
 
 Containerlabben anger 1299 HIGH + 181 CRITICAL före och 2 HIGH + 2 CRITICAL efter. Summorna 1480 och 4 återger samma historiska skanning. Återstående fynd redovisas på webbplatsen.
 
-Presentationens formuleringar om arbetssätt är en redaktionell sammanfattning av arbetsanteckningar, inte ett personligt citat. Yrkeserfarenhet, examensdatum, certifieringar, tillgänglighet och kontaktuppgifter har inte antagits. Verktygen beskrivs som utbildningserfarenhet, utan påstådd expertgrad. Teamets totala resultat tillskrivs inte Jonny ensam.
+Presentationens formuleringar om arbetssätt är en redaktionell sammanfattning av arbetsanteckningar, inte ett personligt citat. Utbildningsperiod, yrkeserfarenhet och kontaktuppgifter bygger på Jonnys CV-underlag. Certifieringar och tillgänglighet har inte antagits. Verktygen beskrivs som utbildningserfarenhet, utan påstådd expertgrad. Teamets totala resultat tillskrivs inte Jonny ensam.
 
 ## Breddad genomgång
 

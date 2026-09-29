@@ -45,8 +45,21 @@ git status --short
 
 Testmiljön installeras enligt README. Läs också igenom det ändrade innehållet och kontrollera att källorna stöder nya påståenden. För kontaktlänkar: kontrollera adress och länkdestination, inte bara den synliga texten.
 
-## Publicering
+## Publicering på GitHub Pages
 
-Webbplatsen är statisk och kan serveras från repots rot. Den fungerar även under en undermapp eftersom lokala länkar är relativa. `.nojekyll` markerar att ingen Jekyll-bearbetning behövs på GitHub Pages.
+Status 2026-09-29: repot är privat och Pages är inte aktiverat. Publicering är förberedd men inte utförd.
 
-Ingen publicering eller ändring av repots synlighet ingår i den lokala utvecklingen. När publiceringsalternativ och synlighet har valts, använd GitHubs Pages-inställningar eller en annan statisk webbserver. Lägg den verkliga webbplatsadressen i README först när den är aktiv. Ladda inte upp privata arbetsfiler, testmiljöer eller Git-metadata som webbmaterial.
+1. Bestäm om hela repot ska vara publikt eller om bara webbplatsen ska vara publik. Ett publikt repo gör även dokumentation och Git-historik tillgängliga. Pages från privat repo kräver en stödjande GitHub-plan; kontots plan kunde inte fastställas via API.
+2. När synligheten är beslutad: välj **Settings → Pages → Source: GitHub Actions**.
+3. Kör workflowen **Portfolio checks and manual publishing** manuellt från `main`. Vanliga pushar och PR:er kör enbart kontroller.
+4. Testjobbet bygger `_site/`, kontrollerar det via HTTP och laddar upp enbart det paketet. Deployjobbet körs bara om kontrollerna lyckas. Inga långlivade deploynycklar används.
+5. Kontrollera den faktiska Pages-adressen i en utloggad webbläsare: startsida, projektsidor, porträtt, båda CV-filerna och en påhittad adress för 404-sidan. Kontrollera även LinkedIn manuellt.
+6. När sidan fungerar: lägg den bekräftade livelänken överst i README och i repots About-fält. Använd den länken i ansökningar.
+
+Standardadressen i bygget är `https://itzmejonny92.github.io/portfolio/`. Byter du värd, domän eller repo-namn behöver `--site-url` uppdateras i workflowen. Den styr sitemap, kanoniska länkar och 404-sidans länk till startsidan.
+
+Publicera alltid `_site/`, inte hela repots rot. Paketet bygger på en lista av webbplatsfiler och innehåller inga `docs/`, testverktyg, README eller Git-metadata. De redigerbara CV-källorna ingår avsiktligt och innehåller samma avsedda publika uppgifter som PDF-versionerna. Även en PDF-länk kan hittas av sökmotorer.
+
+Vid fel efter en publicering: återställ ändringen med en ny commit, kör kontrollerna och publicera den fungerande versionen manuellt. Git-historik behöver inte skrivas om.
+
+Referens: [GitHubs information om Pages och planstöd](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).

@@ -18,3 +18,7 @@ Automatiska kontroller och skärmbilder kompletterar, men ersätter inte, en ful
 ## Efter komplettering med CV-underlag
 
 Alla nio portfoliosidor klarade åter webbläsartesterna på fyra skärmbredder. CV-filerna på svenska och engelska är en sida vardera; e-post finns med och bostadsadress samt telefonnummer har utelämnats. Porträtt- och CV-länkarna pekar på lokala filer. LinkedIn-länken är tillhandahållen av Jonny; profilinnehållet kunde inte hämtas.
+
+## Publiceringsgranskning 2026-09-29
+
+Den utökade verifieringen av webbpaketet via HTTP, tillgänglighet, externa länkar och publiceringsförberedelser finns i [publiceringsgranskningen](publication-review.md). Den ersätter tidigare begränsning att endast lokala filer testades.

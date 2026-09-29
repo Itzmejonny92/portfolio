@@ -35,3 +35,6 @@ node_modules/
 
 # Privata CV-utkast och arbetsmaterial (lägg publika filer i assets/)
 private/
+
+# Genererat publiceringspaket
+_site/

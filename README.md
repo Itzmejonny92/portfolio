@@ -33,7 +33,9 @@ Jag är Jonny Nguyen, bosatt i Helsingborg, och studerar till IT- och cybersäke
 
 ## Öppna portfolion
 
-Webbplatsen finns lokalt i detta repo. En offentlig webbplatsadress har ännu inte konfigurerats.
+Webbplatsen är granskad och förberedd för publicering. Repot är fortfarande privat och GitHub Pages är inte aktiverat. Den planerade adressen är `https://itzmejonny92.github.io/portfolio/`; den ska inte skickas som livelänk förrän publicering och extern kontroll är klara.
+
+Se [publiceringsgranskningen](docs/publication-review.md) för resultat och nästa steg.
 
 
 Öppna `index.html` direkt i en webbläsare, eller kör från repots rot:
@@ -57,7 +59,9 @@ Besök sedan http://localhost:8000. Webbplatsen använder HTML, CSS och ett lite
 - `docs/maintenance.md` – redigering, kontroller och publicering.
 - `docs/github-inventory.md` – inventering av GitHub-projekten.
 - `docs/verification.md` – genomförda kontroller och deras avgränsningar.
-- `tests/browser_check.py` – webbläsartest för funktioner och responsiv layout.
+- `tests/browser_check.py` – testar det färdiga webbpaketet via HTTP under `/portfolio/`.
+- `scripts/build_site.py` – kopierar endast avsedda webbplatsfiler till `_site/`.
+- `.github/workflows/pages.yml` – automatiska kontroller och separat manuell publicering.
 - `requirements-dev.txt` – testberoenden; webbplatsen behöver ingen installation.
 - `.editorconfig` / `.gitattributes` – gemensamma textformat och radslut.
 - `.gitignore` – lokala miljöer, testresultat och privata arbetsfiler.
@@ -74,13 +78,13 @@ Se [repoinventeringen](docs/github-inventory.md) för samtliga tillgängliga pro
 
 ## Kontrollera webbplatsen
 
-Webbläsartestet kontrollerar alla nio sidor vid 320, 390, 768 och 1440 pixlars bredd, projektfilter, ankarlänkar till dolda kort, tangentbordets hopplänk, utskriftsläge och visning utan JavaScript.
+Webbläsartestet bygger webbpaketet och kontrollerar 12 HTML-sidor: startsida, åtta projekt, två CV-källor och 404-sida. Testet använder HTTP under `/portfolio/` vid 320, 390, 768 och 1440 pixlars bredd. Det kontrollerar även lokala länkar och resurser, ankarlänkar, filter, tangentbordets hopplänk, PDF-nedladdning, utskrift och visning utan JavaScript. Dokumentation, Git-metadata och privata arbetsfiler ska inte gå att hämta från webbpaketet.
 
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements-dev.txt
-python -m playwright install chromium
+python -m playwright install --with-deps chromium
 python tests/browser_check.py
 ```
 
@@ -95,3 +99,14 @@ Presentationens texter är ett redaktionellt utkast baserat på projektdokumenta
 ## Material och återanvändning
 
 Projektbeskrivningarna länkar till originalunderlagen. Teamprojekt och individuella insatser skiljs åt. Ingen generell öppen källkodslicens har valts för detta repo; länkade projekt kan ha egna licenser. Porträtt, CV och andra personliga dokument ska endast läggas till i den version som är avsedd att visas offentligt.
+
+## Publiceringspaket
+
+```sh
+python scripts/build_site.py
+python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
+```
+
+`_site/` är genererad och ignoreras av Git. Paketet innehåller inte README, interna anteckningar, tester, Git-historik eller privata arbetsmappar. Bygget lägger till kanoniska sidlänkar, en sitemap och en självständig 404-sida. Annan webbplatsadress anges med `--site-url https://din-domän.example/` och behöver även ändras i workflowens byggkommando.
+
+Push och pull requests kör kontroller. Publicering kräver en manuell körning av **Portfolio checks and manual publishing** från `main`, efter att Pages och repots synlighet har konfigurerats. Se [underhållsguiden](docs/maintenance.md).
