@@ -22,3 +22,7 @@ Alla nio portfoliosidor klarade åter webbläsartesterna på fyra skärmbredder.
 ## Publiceringsgranskning 2026-09-29
 
 Den utökade verifieringen av webbpaketet via HTTP, tillgänglighet, externa länkar och publiceringsförberedelser finns i [publiceringsgranskningen](publication-review.md). Den ersätter tidigare begränsning att endast lokala filer testades.
+
+## Vitt och rött tema · 2026-09-29
+
+Webbplats, favicon, 404-sida och båda CV-versionerna har fått ett vitt och rött tema. HTTP-testerna passerar på fyra skärmbredder. Axe-kontrollen av startsida, åtta projektsidor och två CV-källor rapporterar inga fynd efter färgbytet. Desktoplayouten är visuellt granskad.
