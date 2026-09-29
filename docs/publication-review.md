@@ -11,7 +11,7 @@ Webbplatsen är tekniskt förberedd för publicering, med rättningar och verifi
 - Arbetslivserfarenheten beskrivs som produktionsledning. Utbildningen är pågående. Teamarbete, egna bidrag och historiska labbresultat är avgränsade.
 - Rättat sidregioner för hjälpmedel på startsidan och CV-källorna; projektlänkar har tydligare tillgängliga namn.
 - Lagt till separat publiceringspaket, kanoniska länkar, sitemap och 404-sida.
-- Lagt till automatiska kontroller och manuell Pages-publicering. Inga deploysteg körs vid vanlig push.
+- Lagt till automatiska kontroller och manuell Pages-publicering. Inga deploysteg körs vid vanlig push. Actions är låsta till aktuella commit-id:n och körmiljön till Ubuntu 24.04.
 
 ## Kontrollresultat
 

@@ -107,6 +107,6 @@ python scripts/build_site.py
 python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 ```
 
-`_site/` är genererad och ignoreras av Git. Paketet innehåller inte README, interna anteckningar, tester, Git-historik eller privata arbetsmappar. Bygget lägger till kanoniska sidlänkar, en sitemap och en självständig 404-sida. Annan webbplatsadress anges med `--site-url https://din-domän.example/` och behöver även ändras i workflowens byggkommando.
+`_site/` är genererad och ignoreras av Git. Paketet innehåller inte README, interna anteckningar, tester, Git-historik eller privata arbetsmappar. Bygget lägger till kanoniska sidlänkar, en sitemap och en självständig 404-sida. Annan webbplatsadress anges med `--site-url https://din-domän.example/` för ett enstaka lokalt bygge. För CI-publicering ändras standardvärdet i `scripts/build_site.py`, som testjobbet använder.
 
 Push och pull requests kör kontroller. Publicering kräver en manuell körning av **Portfolio checks and manual publishing** från `main`, efter att Pages och repots synlighet har konfigurerats. Se [underhållsguiden](docs/maintenance.md).

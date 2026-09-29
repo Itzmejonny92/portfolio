@@ -24,7 +24,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | Nytt projekt eller nytt filter | Uppdatera även antal och förväntningar i `tests/browser_check.py` |
 | Källor och avgränsningar | `docs/content-sources.md` |
 
-Navigation och sidfot finns i varje HTML-fil. Ändringar som gäller hela webbplatsen behöver därför göras på alla nio sidor. Ingen generator eller byggprocess används.
+Navigation och sidfot finns i varje HTML-fil. Ändringar som gäller hela webbplatsen behöver därför göras på alla nio sidor. HTML-sidorna redigeras direkt utan sidgenerator. Inför publicering paketerar `scripts/build_site.py` bara avsedda filer och lägger till publiceringsmetadata.
 
 ## Kontakt, CV och privata arbetsfiler
 
@@ -56,7 +56,7 @@ Status 2026-09-29: repot är privat och Pages är inte aktiverat. Publicering ä
 5. Kontrollera den faktiska Pages-adressen i en utloggad webbläsare: startsida, projektsidor, porträtt, båda CV-filerna och en påhittad adress för 404-sidan. Kontrollera även LinkedIn manuellt.
 6. När sidan fungerar: lägg den bekräftade livelänken överst i README och i repots About-fält. Använd den länken i ansökningar.
 
-Standardadressen i bygget är `https://itzmejonny92.github.io/portfolio/`. Byter du värd, domän eller repo-namn behöver `--site-url` uppdateras i workflowen. Den styr sitemap, kanoniska länkar och 404-sidans länk till startsidan.
+Standardadressen i bygget är `https://itzmejonny92.github.io/portfolio/`. Byter du värd, domän eller repo-namn behöver standardvärdet för `--site-url` i `scripts/build_site.py` uppdateras, eftersom CI-testet anropar bygget med dess standardvärde. Den styr sitemap, kanoniska länkar och 404-sidans länk till startsidan.
 
 Publicera alltid `_site/`, inte hela repots rot. Paketet bygger på en lista av webbplatsfiler och innehåller inga `docs/`, testverktyg, README eller Git-metadata. De redigerbara CV-källorna ingår avsiktligt och innehåller samma avsedda publika uppgifter som PDF-versionerna. Även en PDF-länk kan hittas av sökmotorer.
 
