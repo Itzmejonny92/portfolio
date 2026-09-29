@@ -1,5 +1,7 @@
 # Jonny Nguyen · Portfolio
 
+**[Öppna min portfolio →](https://itzmejonny92.github.io/portfolio/)**
+
 Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruktur. Jag studerar på Chas Academy, ITSX25, och samlar här praktiska kursprojekt, dokumenterade resultat och lärdomar.
 
 [GitHub-profil](https://github.com/Itzmejonny92) · [Portfolio-repo](https://github.com/Itzmejonny92/portfolio)
@@ -33,9 +35,9 @@ Jag är Jonny Nguyen, bosatt i Helsingborg, och studerar till IT- och cybersäke
 
 ## Öppna portfolion
 
-Webbplatsen är granskad och förberedd för publicering. Repot är fortfarande privat och GitHub Pages är inte aktiverat. Den planerade adressen är `https://itzmejonny92.github.io/portfolio/`; den ska inte skickas som livelänk förrän publicering och extern kontroll är klara.
+Portfolion är publicerad på **[https://itzmejonny92.github.io/portfolio/](https://itzmejonny92.github.io/portfolio/)** via GitHub Pages. Den kan öppnas utan GitHub-konto eller inloggning. Repot är publikt. Publicering och åtkomst verifierades 2026-09-29.
 
-Se [publiceringsgranskningen](docs/publication-review.md) för resultat och nästa steg.
+Se [publiceringsgranskningen](docs/publication-review.md) för resultat och publiceringsstatus.
 
 
 Öppna `index.html` direkt i en webbläsare, eller kör från repots rot:
@@ -109,4 +111,12 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 `_site/` är genererad och ignoreras av Git. Paketet innehåller inte README, interna anteckningar, tester, Git-historik eller privata arbetsmappar. Bygget lägger till kanoniska sidlänkar, en sitemap och en självständig 404-sida. Annan webbplatsadress anges med `--site-url https://din-domän.example/` för ett enstaka lokalt bygge. För CI-publicering ändras standardvärdet i `scripts/build_site.py`, som testjobbet använder.
 
-Push och pull requests kör kontroller. Publicering kräver en manuell körning av **Portfolio checks and manual publishing** från `main`, efter att Pages och repots synlighet har konfigurerats. Se [underhållsguiden](docs/maintenance.md).
+Push och pull requests kör kontroller. Publicering kräver en manuell körning av **Portfolio checks and manual publishing** från `main`, med den befintliga Pages-konfigurationen. Se [underhållsguiden](docs/maintenance.md).
+
+## Dela med arbetsgivare
+
+Använd webbplatslänken i CV, LinkedIn och ansökningar:
+
+**https://itzmejonny92.github.io/portfolio/**
+
+Arbetsgivaren kan läsa presentation och projekt samt ladda ner CV på svenska eller engelska direkt. GitHub-repot är ett komplement för den som vill granska koden.

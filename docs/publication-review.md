@@ -2,7 +2,7 @@
 
 ## Bedömning
 
-Webbplatsen är tekniskt förberedd för publicering, med rättningar och verifiering enligt nedan. Den är ännu inte live. GitHub-repot är privat och saknar aktiverad Pages-webbplats. Slutlig synlighet och publicering behöver beslutas innan en arbetsgivarlänk kan verifieras.
+Webbplatsen är publicerad och verifierad på **https://itzmejonny92.github.io/portfolio/**. Jonny godkände publiceringen 2026-09-29. Repot är nu publikt och GitHub Pages använder det separat byggda webbpaketet. Webbplatsen kräver ingen GitHub-inloggning.
 
 ## Granskat och åtgärdat
 
@@ -31,12 +31,20 @@ Webbplatsen är tekniskt förberedd för publicering, med rättningar och verifi
 
 ## Vad kontrollerna inte bevisar
 
-Automatiska tillgänglighetstester ersätter inte manuell skärmläsartestning. Mönstersökning efter nycklar är inte en garanti mot alla hemligheter. Alla tidigare granskade kursprojekt har inte genomgått en ny kodrevision. Webbplatsen har testats i Chromium, inte i varje mobilwebbläsare. Slutlig HTTPS-, cache- och 404-hantering på GitHub Pages kan verifieras först efter aktivering.
+Automatiska tillgänglighetstester ersätter inte manuell skärmläsartestning. Mönstersökning efter nycklar är inte en garanti mot alla hemligheter. Alla tidigare granskade kursprojekt har inte genomgått en ny kodrevision. Webbplatsen har testats i Chromium, inte i varje mobilwebbläsare. HTTPS och anpassad 404-hantering har verifierats efter publicering. Cachebeteende över längre tid har inte särskilt testats.
 
-## Beslut inför publicering
+## Publicerat och verifierat
 
-Förslaget är GitHub Pages på `https://itzmejonny92.github.io/portfolio/`. Om hela repot görs publikt blir även dokumentation och historik offentliga, inklusive namn på privata projekt i inventeringen. Ett alternativ är att behålla källrepot privat och använda hosting som stöder det. Kontots planinformation gick inte att avgöra genom API-svaret.
+- **Livelänk:** https://itzmejonny92.github.io/portfolio/
+- **Publicerad webbplatsversion:** `6014873` (vitt och rött tema).
+- **Deployment:** [36589962633](https://github.com/Itzmejonny92/portfolio/actions/runs/36589962633), både kontroll och deployment lyckades.
+- Alla 20 publicerade filer gav HTTP 200 och matchade lokalt granskat paket byte för byte.
+- Påhittad djup URL, `docs/content-sources.md` och `.git/config` gav HTTP 404 med den anpassade felsidan.
+- Mobilnavigation, projektfilter, porträtt och kontakt kontrollerades i en ny Chromium-session utan inloggning.
+- Båda PDF-filerna är tillgängliga över HTTPS.
 
-Den aktuella webbplatsen visar namn, porträtt, Helsingborg, e-post, LinkedIn, GitHub, arbetslivsbakgrund, utbildningsperiod och två CV-filer. Inga formulär, spårningsskript eller externa resurser laddas vid sidbesök.
+Hela repot, dess dokumentation och historik är nu offentliga. Själva Pages-webbplatsen innehåller enbart filerna i publiceringspaketet. Webbplatsen visar namn, porträtt, Helsingborg, e-post, LinkedIn, GitHub, arbetslivsbakgrund, utbildningsperiod och två CV-filer.
 
-När publicering har genomförts ska den faktiska livelänken verifieras utloggat och läggas i README. Tillgänglighet för LIA/anställning kan kompletteras senare och blockerar inte den nuvarande presentationen.
+Inga formulär eller egna spårningsskript används. GitHub Pages kan logga besökares IP-adresser för säkerhetsändamål enligt [GitHubs dokumentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+
+LinkedIn-länken är tillhandahållen av Jonny men blockerade den automatiska kontrollen. Tillgänglighet för LIA/anställning kan kompletteras senare.

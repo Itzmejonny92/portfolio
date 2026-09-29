@@ -26,3 +26,7 @@ Den utökade verifieringen av webbpaketet via HTTP, tillgänglighet, externa lä
 ## Vitt och rött tema · 2026-09-29
 
 Webbplats, favicon, 404-sida och båda CV-versionerna har fått ett vitt och rött tema. HTTP-testerna passerar på fyra skärmbredder. Axe-kontrollen av startsida, åtta projektsidor och två CV-källor rapporterar inga fynd efter färgbytet. Desktoplayouten är visuellt granskad.
+
+## Liveverifiering · 2026-09-29
+
+Publicering till GitHub Pages lyckades via [körning 36589962633](https://github.com/Itzmejonny92/portfolio/actions/runs/36589962633). Alla 20 filer matchar det granskade paketet över HTTPS. Mobilnavigation, projektfilter, porträtt, kontakt och anpassad 404 har kontrollerats utan inloggning. Se [publiceringsrapporten](publication-review.md).

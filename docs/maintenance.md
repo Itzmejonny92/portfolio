@@ -47,14 +47,17 @@ Testmiljön installeras enligt README. Läs också igenom det ändrade innehåll
 
 ## Publicering på GitHub Pages
 
-Status 2026-09-29: repot är privat och Pages är inte aktiverat. Publicering är förberedd men inte utförd.
+Status 2026-09-29: repot är publikt, GitHub Pages använder GitHub Actions och webbplatsen är live på **https://itzmejonny92.github.io/portfolio/**. HTTPS är aktiverat. Repots About-fält och README länkar till webbplatsen.
 
-1. Bestäm om hela repot ska vara publikt eller om bara webbplatsen ska vara publik. Ett publikt repo gör även dokumentation och Git-historik tillgängliga. Pages från privat repo kräver en stödjande GitHub-plan; kontots plan kunde inte fastställas via API.
-2. När synligheten är beslutad: välj **Settings → Pages → Source: GitHub Actions**.
-3. Kör workflowen **Portfolio checks and manual publishing** manuellt från `main`. Vanliga pushar och PR:er kör enbart kontroller.
-4. Testjobbet bygger `_site/`, kontrollerar det via HTTP och laddar upp enbart det paketet. Deployjobbet körs bara om kontrollerna lyckas. Inga långlivade deploynycklar används.
-5. Kontrollera den faktiska Pages-adressen i en utloggad webbläsare: startsida, projektsidor, porträtt, båda CV-filerna och en påhittad adress för 404-sidan. Kontrollera även LinkedIn manuellt.
-6. När sidan fungerar: lägg den bekräftade livelänken överst i README och i repots About-fält. Använd den länken i ansökningar.
+### Publicera nästa ändring
+
+1. Redigera och granska ändringarna. Kör `python tests/browser_check.py` lokalt vid webbplatsändringar.
+2. Committa och pusha till `main`. Push kör kontroller men uppdaterar inte automatiskt den publika webbplatsen.
+3. Kör **Actions → Portfolio checks and manual publishing → Run workflow → main**. Alternativt: `gh workflow run pages.yml --ref main`.
+4. Testjobbet bygger och kontrollerar `_site/`. Deployjobbet publicerar bara om kontrollerna lyckas.
+5. När båda jobben är gröna: öppna livelänken i en utloggad webbläsare och kontrollera det som ändrats. Vid CV-ändringar ska båda PDF-filerna kontrolleras.
+
+Första publiceringen: [GitHub Actions-körning 36589962633](https://github.com/Itzmejonny92/portfolio/actions/runs/36589962633), webbplatsversion `6014873`. Alla 20 publicerade filer jämfördes med det granskade paketet. HTTPS, mobilnavigation, kontaktlänkar och egna 404-sidan verifierades utan inloggning.
 
 Standardadressen i bygget är `https://itzmejonny92.github.io/portfolio/`. Byter du värd, domän eller repo-namn behöver standardvärdet för `--site-url` i `scripts/build_site.py` uppdateras, eftersom CI-testet anropar bygget med dess standardvärde. Den styr sitemap, kanoniska länkar och 404-sidans länk till startsidan.
 
