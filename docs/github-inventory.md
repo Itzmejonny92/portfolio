@@ -40,4 +40,4 @@ Den publika AIS-reflektionen beskriver ett intresse för SOC Analyst, Security E
 
 ## Komplettering från Jonny
 
-Utbildningsnamn, period, yrkeserfarenhet och kontaktuppgifter har därefter bekräftats genom Jonnys CV-underlag. Aktuell målroll och tillgänglighet för LIA/anställning återstår att precisera. Webbplatsen länkar till publika beskrivningar av arbeten vars kod är privat.
+Utbildningsnamn, period, yrkeserfarenhet och kontaktuppgifter har därefter bekräftats genom Jonnys CV-underlag. LIA-period och inriktning bekräftades i 2026-CV:na: 16 november 2026–23 april 2027, med fokus på säkerhetsövervakning, IAM och säker IT-drift. Webbplatsen länkar till publika beskrivningar av arbeten vars kod är privat.

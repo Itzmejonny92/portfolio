@@ -1,21 +1,13 @@
 # Personuppgifter och fortsatt komplettering
 
-## Infört från Jonnys underlag
+Uppdaterat 2026-10-20 från Jonnys nya svenska och engelska 2026-CV.
 
-- Helsingborg, Sverige.
-- E-post: j.nguyen92@hotmail.com.
-- LinkedIn: https://www.linkedin.com/in/jonny-nguyen-770463383/ (länk lämnad av Jonny; sidans innehåll kunde inte hämtas).
-- Produktionsledare, KLS Ugglarps AB, 2015–2026.
-- IT- och cybersäkerhetstekniker (YH), Chas Academy, september 2025–juli 2027. Utbildningen är pågående.
+- Söker LIA: 16 november 2026–23 april 2027.
+- Fokus: säkerhetsövervakning, identitets- och åtkomsthantering samt säker IT-drift.
+- Maskinoperatör och produktionsledare, KLS Ugglarps AB, 2015–2026. Över tre års arbetsledning med ansvar för 16 personer.
+- Pågående YH-utbildning vid Chas Academy, september 2025–juli 2027.
 - Teknikprogrammet – Data/IT, 2007–2011.
-- Porträtt från Jonnys CV-underlag.
-- Offentliga CV-versioner på svenska och engelska i `assets/`, framställda från underlaget med bostadsadress och telefonnummer utelämnade.
+- Ort, e-post och LinkedIn kvarstår enligt CV-underlaget.
+- PDF-versionerna är oförändrade kopior av de nya originalen. Telefonnummer får enligt Jonnys uttryckliga önskemål synas i nedladdningsbara CV, men inte på webbsidan eller i HTML-versionerna.
 
-## Återstår att bekräfta
-
-- Aktuell målroll och om Jonny söker LIA/praktik eller anställning.
-- Tillgänglighet och eventuella önskemål om ort eller distansarbete.
-
-Ingen tillgänglighetsstatus, tidigare IT-anställning eller certifiering har antagits. Ingen LinkedIn-text har hämtats eller använts som sakunderlag.
-
-Se [underhållsguiden](maintenance.md) för redigering, kontroller och publicering.
+Inga certifieringar eller tidigare IT-anställningar har antagits. Originalfilerna i Info JN lämnas oförändrade.

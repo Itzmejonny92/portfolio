@@ -30,9 +30,11 @@ Navigation och sidfot finns i varje HTML-fil. Ändringar som gäller hela webbpl
 
 Kontaktsektionen innehåller e-post, LinkedIn och GitHub samt ort. Uppdatera både `index.html` och README när uppgifterna ändras.
 
-CV finns som `assets/jonny-nguyen-cv-sv.pdf` och `assets/jonny-nguyen-cv-en.pdf`. Motsvarande HTML-filer i samma mapp är redigerbara källor. Öppna dem i en webbläsare och skriv ut till PDF med A4, utan webbläsarens sidhuvud/sidfot, efter innehållsändringar. Kontrollera att slutresultatet fortfarande ryms och att länkar fungerar. Porträttet ligger i `assets/jonny-nguyen.png`.
+CV finns som `assets/jonny-nguyen-cv-sv.pdf` och `assets/jonny-nguyen-cv-en.pdf`. Sedan 2026-10-20 är PDF-filerna oförändrade kopior av Jonnys nya 2026-CV. Ersätt dem från nya originalfiler; generera inte om dem från HTML om originalens layout ska behållas.
 
-CV-versionerna för webben utelämnar bostadsadress och telefonnummer. Originalunderlaget ligger utanför repot. Privata utkast kan förvaras i den ignorerade mappen `private/`. En gitignore-regel tar inte bort redan versionshanterade filer. Ladda bara upp avsedda webbplatsfiler vid publicering.
+Motsvarande HTML-filer är läsbara webbversioner av samma aktuella innehåll, men **utan telefonnummer**. Jonny har uttryckligen valt att telefonnumret får finnas i nedladdningsbara PDF-filer men inte på webbplatsens sidor. Behåll denna skillnad vid framtida uppdateringar. Originalunderlaget i Info JN lämnas oförändrat.
+
+Porträttet ligger i `assets/jonny-nguyen.png`. Privata arbetsutkast kan förvaras i den ignorerade mappen `private/`; ladda bara upp avsedda webbplatsfiler.
 
 ## Kontroll före push
 
@@ -61,7 +63,7 @@ Första publiceringen: [GitHub Actions-körning 36589962633](https://github.com/
 
 Standardadressen i bygget är `https://itzmejonny92.github.io/portfolio/`. Byter du värd, domän eller repo-namn behöver standardvärdet för `--site-url` i `scripts/build_site.py` uppdateras, eftersom CI-testet anropar bygget med dess standardvärde. Den styr sitemap, kanoniska länkar och 404-sidans länk till startsidan.
 
-Publicera alltid `_site/`, inte hela repots rot. Paketet bygger på en lista av webbplatsfiler och innehåller inga `docs/`, testverktyg, README eller Git-metadata. De redigerbara CV-källorna ingår avsiktligt och innehåller samma avsedda publika uppgifter som PDF-versionerna. Även en PDF-länk kan hittas av sökmotorer.
+Publicera alltid `_site/`, inte hela repots rot. Paketet bygger på en lista av webbplatsfiler och innehåller inga `docs/`, testverktyg, README eller Git-metadata. De redigerbara CV-källorna ingår avsiktligt och har samma sakuppgifter men utelämnar PDF-versionernas telefonnummer. Även en PDF-länk kan hittas av sökmotorer.
 
 Vid fel efter en publicering: återställ ändringen med en ny commit, kör kontrollerna och publicera den fungerande versionen manuellt. Git-historik behöver inte skrivas om.
 

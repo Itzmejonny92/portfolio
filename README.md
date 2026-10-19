@@ -8,7 +8,11 @@ Cybersäkerhet, SOC/SIEM, OT-säkerhet, AI-integration och säker molninfrastruk
 
 ## Om mig
 
-Jag är Jonny Nguyen, bosatt i Helsingborg, och studerar till IT- och cybersäkerhetstekniker (YH) på Chas Academy, ITSX25, september 2025–juli 2027. Min bakgrund är produktionsledare på KLS Ugglarps AB (2015–2026), med personalansvar, planering, säkerhetsrutiner, riskbedömning och kvalitetssäkring. Jag är intresserad av SOC, Security Engineering och detection engineering. I projekten arbetar jag bland annat med integration, metodisk felsökning och dokumentation som gör tekniska beslut lättare att följa.
+Jag är Jonny Nguyen, bosatt i Helsingborg, och studerar till IT- och cybersäkerhetstekniker (YH) på Chas Academy, ITSX25, september 2025–juli 2027. Jag har arbetat som maskinoperatör och produktionsledare på KLS Ugglarps AB (2015–2026), med över tre års erfarenhet av arbetsledning och ansvar för 16 personer. Jag är intresserad av SOC, Security Engineering och detection engineering. I projekten arbetar jag bland annat med integration, metodisk felsökning och dokumentation som gör tekniska beslut lättare att följa.
+
+## LIA
+
+**Söker LIA: 16 november 2026–23 april 2027.** CV på svenska och engelska uppdaterades 2026-10-20 från Jonnys nya original. Telefonnumret finns endast i de nedladdningsbara PDF-filerna.
 
 ## Kontakt
 
@@ -96,7 +100,7 @@ Chromium behöver fungerande systembibliotek. Dessa testberoenden behövs bara f
 
 Responsiv layout med lokala typsnitt, tydlig tangentbordsfokus, semantiska sidregioner, reducerad rörelse och utskriftsvy. Filtren visar antal träffar och valt läge för hjälpmedel. Länkar från kompetensdelen visar automatiskt ett projekt även om det dolts av ett filter. Inga externa anrop görs när sidan laddas.
 
-Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Bakgrund, utbildningsperiod och kontaktadress har kompletterats från Jonnys egna CV-filer. Aktuell tillgänglighet för LIA eller anställning återstår att bekräfta.
+Presentationens texter är ett redaktionellt utkast baserat på projektdokumentationen. Bakgrund, utbildningsperiod och kontaktadress har kompletterats från Jonnys egna CV-filer. Jag söker LIA **16 november 2026–23 april 2027**, med fokus på säkerhetsövervakning, identitets- och åtkomsthantering samt säker IT-drift.
 
 ## Material och återanvändning
 

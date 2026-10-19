@@ -26,4 +26,4 @@ Jonny tillhandahöll svenska och engelska CV-filer samt porträtt i mappen `Info
 
 Webbplatsens personliga bakgrund har uppdaterats från dessa uppgifter. De tidigare avgränsningarna om att yrkeserfarenhet, utbildningsdatum och kontaktuppgifter saknades gäller därför endast det första utkastet. Erfarenheten inom produktionsledning beskrivs som sådan, utan att framställas som IT-anställning.
 
-CV-filerna i `assets/` är separata, omformaterade publiceringsversioner baserade på underlaget. Bostadsadress och telefonnummer har utelämnats; originalfilerna är oförändrade och ligger utanför repot.
+De första CV-versionerna var omformaterade och utelämnade telefonnummer. Den 2026-10-20 ersattes de med oförändrade kopior av Jonnys nya 2026-CV på svenska och engelska. LIA-period, yrkesbakgrund och HTML-versioner uppdaterades samtidigt. Jonny godkände uttryckligen telefonnummer i nedladdningsbara CV men inte på webbsidan. HTML-versionerna utelämnar därför telefonnumret. Originalfilerna i Info JN är oförändrade.

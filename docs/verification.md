@@ -30,3 +30,7 @@ Webbplats, favicon, 404-sida och båda CV-versionerna har fått ett vitt och rö
 ## Liveverifiering · 2026-09-29
 
 Publicering till GitHub Pages lyckades via [körning 36589962633](https://github.com/Itzmejonny92/portfolio/actions/runs/36589962633). Alla 20 filer matchar det granskade paketet över HTTPS. Mobilnavigation, projektfilter, porträtt, kontakt och anpassad 404 har kontrollerats utan inloggning. Se [publiceringsrapporten](publication-review.md).
+
+## CV-uppdatering · 2026-10-20
+
+Båda nya PDF-filerna är en sida och matchar Jonnys nya original byte för byte. HTML-versionerna och presentationen har uppdaterats med LIA-period samt korrigerad arbetslivserfarenhet. Enligt Jonnys val finns telefonnummer i PDF-filerna men inte i webbtexterna. Tidigare anteckningar om att PDF-filerna saknar telefonnummer gäller endast septemberversionerna.

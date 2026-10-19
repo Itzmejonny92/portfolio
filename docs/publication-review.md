@@ -48,3 +48,7 @@ Hela repot, dess dokumentation och historik är nu offentliga. Själva Pages-web
 Inga formulär eller egna spårningsskript används. GitHub Pages kan logga besökares IP-adresser för säkerhetsändamål enligt [GitHubs dokumentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 LinkedIn-länken är tillhandahållen av Jonny men blockerade den automatiska kontrollen. Tillgänglighet för LIA/anställning kan kompletteras senare.
+
+## Senare CV-uppdatering · 2026-10-20
+
+Septembergranskningen ovan avser dåvarande CV. De nya original-PDF:erna har därefter ersatt dem. Jonny godkände telefonnummer i nedladdningsbara CV men inte på webbsidan. LIA-perioden är nu bekräftad: 16 november 2026–23 april 2027.
